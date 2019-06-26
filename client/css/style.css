@@ -12,11 +12,19 @@
 }
 
 .dark-orange {
-	color: var(--remindly-dark-orange);;
+	color: var(--remindly-dark-orange);
+}
+
+.bkg-dark-orange {
+	background-color: var(--remindly-dark-orange);
 }
 
 .light-orange {
-	color: var(--remindly-light-orange);;
+	color: var(--remindly-light-orange);
+}
+
+.bkg-light-orange {
+	background-color: var(--remindly-light-orange);
 }
 
 .navbar {
@@ -26,6 +34,12 @@
 
 .navbar-brand img {
 	height: 70px;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-brand img {
+		height: 60px;
+	}
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -66,6 +80,13 @@ h4 {
 h1 {
 	font-size: 50px;
 	line-height: 70px;
+}
+
+@media (max-width: 767.98px) {
+	h1 {
+		font-size: 35px;
+		line-height: 60px;
+	}
 }
 
 h6 {
